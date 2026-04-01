@@ -1,0 +1,1 @@
+import React from 'react';export default function Admin(){return (<div><h3>Admin & RBAC</h3><p>Manage users, roles & features here.</p></div>)}

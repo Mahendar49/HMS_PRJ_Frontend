@@ -1,0 +1,1 @@
+import React from 'react';import sample from '../data.sample.json';export default function Billing(){return (<div><h3>Billing</h3><p>Invoices placeholder</p></div>)}

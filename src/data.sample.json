@@ -1,0 +1,31 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "mrn": "MRN001",
+      "first_name": "Asha",
+      "last_name": "Kumar",
+      "dob": "1985-07-12",
+      "phone": "555-0101",
+      "email": "asha.kumar@example.com"
+    }
+  ],
+  "providers": [
+    {
+      "id": 1,
+      "provider_code": "PRV001",
+      "first_name": "Dr. Neha",
+      "last_name": "Sharma",
+      "specialty": "Cardiology"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "provider_id": 1,
+      "scheduled_start": "2025-10-30T10:00:00",
+      "status": "confirmed"
+    }
+  ]
+}
